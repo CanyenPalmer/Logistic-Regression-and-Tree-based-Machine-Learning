@@ -1,6 +1,6 @@
-### Logistic-Regression-and-Tree-based-Machine-Learning
+# Logistic-Regression-and-Tree-based-Machine-Learning
 
-### HR Department at Salifort Motors
+## HR Department at Salifort Motors
 Goal: Construct a prediction model that accurately predicts whether an employee will leave the company or not
 
 Initial observations is that focusing our attention to the categories work_accident, left, and/or promotion_last_5years would have the most affect on the employees desire to leave the company.
@@ -10,7 +10,7 @@ We will focus on the data in Kaggle for our observations. The data set contains 
 I would consider having the employees who have already refuse to continue work with the company provide any detail as to why they feel that way. All additional remarks both factual or opinionated may contribute to discovering a correlating issue.
 
 
-# Summary of model results
+### Summary of model results
 Logistic Regression
 
 The logistic regression model achieved precision of 80%, recall of 83%, f1-score of 80% (all weighted averages), and accuracy of 83%, on the test set.
@@ -19,7 +19,7 @@ Tree-based Machine Learning
 
 After conducting feature engineering, the decision tree model achieved AUC of 93.8%, precision of 87.0%, recall of 90.4%, f1-score of 88.7%, and accuracy of 96.2%, on the test set. The random forest modestly outperformed the decision tree model.
 
-# Conclusion, Recommendations, Next Steps¶
+### Conclusion, Recommendations, Next Steps¶
 The models and the feature importances extracted from the models confirm that employees at the company are overworked.
 
 To retain employees, the following recommendations could be presented to the stakeholders:
